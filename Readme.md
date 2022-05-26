@@ -3,7 +3,9 @@
 We have developed a small application, which uses face detection, 
 landmarks of face, head posture, emotion recognition and other technologies to judge 
 students' class status. It was both a course assignment and a simple
-application of AI.
+application of AI.\
+**Contributors**: Leng Zhuo, Cai Jialun.\
+**Email**: len@stu.pku.edu.cn
 
 ## What can this app do?
 Detect a face, classify the emotion, determine if the mouth 
