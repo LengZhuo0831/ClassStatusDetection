@@ -1,5 +1,5 @@
 
-###About this repo
+### About this repo
 We have developed a small application, which uses face detection, 
 landmarks of face, head posture, emotion recognition and other technologies to judge 
 students' class status. It was both a course assignment and a simple
