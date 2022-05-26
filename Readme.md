@@ -13,15 +13,15 @@ is open or the eyes are closed and calculate the head pose(or direction):\
 ### face detection, face landmarks and head pose:
 These modules are based on https://github.com/WIKI2020/FacePose_pytorch, and you may interested of it.
 
-#### face landmarks
+### face landmarks
 98 landmarks are regressed by a CNN based network:\
 ![img_2.png](videoAndImage/img_2.png)
-#### head pose
+### head pose
 The head pose is represent by a three 
 dimensional direction vector: (pitch, yaw, roll) as show below:\
 ![img_1.png](videoAndImage/img_1.png)
 And it is calculated by the 2d geometry relation of these landmarks
-#### eye and mouth
+### eye and mouth
 we clip the area of eye and mouth to train two network for eye's status
 and mouth's status judgement. \
 ![img_3.png](videoAndImage/img_3.png)
@@ -42,7 +42,7 @@ mmcv
 _cuda is not necessary, but prefered._
 
 ### run and try:
-`python paint.py`\
+`python paint.py`
 
 ### mouth and eye dataset: More data
 We have a potential method to get more data with your camera for mouth and eye classifier training
